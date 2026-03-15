@@ -27,8 +27,8 @@ const STATE = {
 };
 
 const AUDIO_FILES = {
-    background: "background baby.mp3",
-    challenge: "background baby.mp3",
+    background: "background_baby.mp3",
+    challenge: "background_baby.mp3",
     gym: "gym.mp3",
     museum: "museum.mp3",
     click: "clicky.mp3",
