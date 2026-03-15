@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croc Playtime Adventure</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.60.0/phaser.min.js"></script>
+    <style>
+        :root {
+            --frame: #ff7878;
+            --bg-a: #5e83e3;
+            --bg-b: #8657bf;
+        }
+
+        * {
+            box-sizing: border-box;
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background: radial-gradient(circle at 15% 15%, var(--bg-a), var(--bg-b));
+            font-family: "Trebuchet MS", "Comic Sans MS", cursive, sans-serif;
+            overflow: hidden;
+        }
+
+        #game-container {
+            border: 12px solid var(--frame);
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 30px 90px rgba(0, 0, 0, 0.35), inset 0 0 20px rgba(255, 255, 255, 0.2);
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+    <script src="./game.js"></script>
+</body>
+</html>
